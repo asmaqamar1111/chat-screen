@@ -1,0 +1,267 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f4f5fa;
+  position: relative;
+}
+.circle {
+  background-color: #eae7f5;
+  width: 600px;
+  height: 600px;
+  border-radius: 373px;
+  position: absolute;
+  top: 25px;
+  left: 388px;
+}
+.rectangle {
+  background-color: #5b61b9;
+  width: 253px;
+  height: 457px;
+  border-radius: 30px;
+  box-shadow: 15px 15px 10px #919698;
+}
+#rectangleMe {
+  position: absolute;
+  top: 79px;
+  left: 410px;
+}
+#rectangleHer {
+  position: absolute;
+  right: 304px;
+  top: 122px;
+}
+.chatBox {
+  background-color: white;
+  width: 253px;
+  height: 351px;
+  position: absolute;
+  top: 49px;
+  /* border-bottom-left-radius: 30px 34px;
+  border-bottom-right-radius: 30px 34px; */
+}
+.inputField {
+  background-color: #f0eef7;
+  /* border: 0; */
+  border-radius: 41px;
+  width: 226px;
+  height: 39px;
+  position: top;
+  position: absolute;
+  bottom: 17px;
+  left: 15px;
+  padding: 20px;
+}
+input[type="text"] {
+  border: 2px solid #5b61b6;
+}
+.iconCircle {
+  background-color: #5b61b6;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  right: 19px;
+  bottom: 24px;
+}
+.iconSend {
+  color: white;
+  width: 20px;
+  height: 26px;
+  position: absolute;
+  bottom: 24px;
+  right: 25px;
+}
+.icons {
+  color: white;
+}
+#menu {
+  position: absolute;
+  top: 15px;
+  right: 18px;
+  width: 25px;
+  height: 20px;
+}
+#back {
+  position: absolute;
+  top: 15px;
+  left: 7px;
+  width: 25px;
+  height: 20px;
+}
+h4 {
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: 57px;
+  font-family: revert;
+  font-size: 18px;
+  text-align: center;
+}
+.h4 {
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: 73px;
+  font-family: revert;
+  font-size: 17px;
+  text-align: center;
+}
+.ulMe {
+  margin: 0;
+  padding: 0;
+}
+.liMeSender {
+  color: white;
+  background-color: #6f77c1;
+  display: inline;
+  padding: 10px;
+  margin: 8px;
+  border-top-left-radius: 14px 12px;
+  border-bottom-left-radius: 14px 12px;
+  border-bottom-right-radius: 14px 12px;
+  position: absolute;
+  right: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.liMeReceiver {
+  color: white;
+  background-color: #6f77c1;
+  display: inline;
+  padding: 10px;
+  margin: 8px;
+  border-top-left-radius: 14px 12px;
+  border-bottom-left-radius: 14px 12px;
+  border-bottom-right-radius: 14px 12px;
+  position: absolute;
+  right: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.ulHer {
+  margin: 0;
+  padding: 0;
+}
+.liHerSender {
+  color: white;
+  background-color: #6f77c1;
+  display: inline;
+  padding: 10px;
+  margin: 8px;
+  border-top-left-radius: 14px 12px;
+  border-bottom-left-radius: 14px 12px;
+  border-bottom-right-radius: 14px 12px;
+  position: absolute;
+  right: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.liHerReceiver {
+  color: white;
+  background-color: #323233;
+  display: inline;
+  padding: 10px;
+  margin: 8px;
+  border-top-right-radius: 14px 12px;
+  border-bottom-left-radius: 14px 12px;
+  border-bottom-right-radius: 14px 12px;
+  position: absolute;
+  list-style: none;
+  text-decoration: none;
+}
+
+.scroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(190, 190, 190);
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c4c4c4;
+}
+.input {
+  position: fixed;
+  top: 485px;
+  left: 425px;
+}
+.send_btn {
+  position: fixed;
+  top: 494px;
+  left: 613px;
+}
+.outercircle {
+  position: fixed;
+  top: 491px;
+  left: 609px;
+}
+
+.input2{
+  position: fixed;
+    top: 528px;
+    left: 736px;
+}
+.send_btn2{
+  position: fixed;
+  top: 538px;
+  left: 928px;
+}
+.outercircle2{
+  position: fixed;
+    top: 534px;
+    left: 924px;
+}
+
+/* .inputField {
+  background-color: #f0eef7;
+  /* border: 0; */
+  /* border-radius: 41px; */
+  /* width: 226px; */
+  /* height: 39px; */
+  /* position: top; */
+  /* position: absolute; */
+  /* bottom: 85px; */
+  /* left: 15px; */
+  /* position: fixed; */
+  /* padding: 20px; */
+/* } */
+/* .iconCircle {
+  /* top: 10px; */
+  /* background-color: #5b61b6;
+  position: fixed;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  right: 328px;
+  bottom: 91px; */
+  /* left: 100px; */
+/* } */
+/* .iconSend {
+  color: white;
+  width: 20px;
+  height: 26px;
+  position: fixed;
+  bottom: 92px;
+  right: 335px; */
+/* }  */
